@@ -4,6 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest # Использовать последнюю версию Ubuntu
     steps:
-      - uses: actions/checkout@v4 # Шаг 1: скачать код из репозитория
+      - uses: actions/checkout@v4 # Шаг 1: скачать код из репозитори
       - name: Запустить команду
         run: echo "Привет, мир! Я только что запустил CI!"
